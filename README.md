@@ -1,5 +1,5 @@
 # Podcasts-Project
-- Special version dedicated to *Proximity*
+- Special version dedicated for -*Proximity*-
 
 ## Description
 This a test provided by the Recruitment Department in order

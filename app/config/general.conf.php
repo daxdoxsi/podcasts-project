@@ -1,4 +1,4 @@
 <?php
 
 $app['config']['site_title'] = "Podcast ad hoc reader";
-$app['config']['']
+$app['config']['site_description'] = "Podcast System description";

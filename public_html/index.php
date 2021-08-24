@@ -1,3 +1,3 @@
 <?php
 
-require '../core/loader.inc.php';
+require '../core/web_loader.inc.php';

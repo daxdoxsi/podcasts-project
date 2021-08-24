@@ -1,6 +1,7 @@
-# podcasts-project
-- Special version dedicated to Proximity
+# Podcasts-Project
+- Special version dedicated to *Proximity*
 
+## Description
 This a test provided by the Recruitment Department in order
 to evaluate the knowledge of PHP and communication with other
 servers in order to retrieve information about Podcast lists
@@ -33,3 +34,22 @@ include a reader in order to facilitate stay up-to-date meanwhile the
 user work in other computer tasks.
 
 Enjoy it!
+
+## Install Instructions
+Configure your Apache Server files to point to the public_html folder 
+included on this repository, don't forget to define your test domain in
+your hosts file pointing the the specific IP and also update the
+site-available file for that domain.  The test domain should appear as
+server name with a new local domain like podcast.local as in the hosts
+file, run with sudo a2ensite config_file_name and then restart the server.
+
+This basic version works with plain files and includes a file called 
+podcast.php in the root of the repository to execute the functions by
+command line without the requirement to have web server like Apache.
+
+If a docker-compose.json file appears on the root repository don't
+hesitate on run it and docker will create and define the necesary
+files with no effort.
+
+Developed by:
+David Madrigal Miller - 2021
